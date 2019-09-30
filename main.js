@@ -1,18 +1,19 @@
 let iGetTheJoke = false;
-let havingFun;
-let learning;
-let killingIt;
+let havingFun = false;
+let learning =true;
+let killingIt = false;
 
 
-function returnFalse() {
-
+function returnFalse(str) {
+  return false;
 }
 
 function isOpposite(condition) {
-
+  return !condition;
 }
 
 function both(condition1, condition2) {
+  if(condition1 && condition2) true
 
 }
 
@@ -28,7 +29,6 @@ function itsComplicated(condition1, condition2, condition3) {
 
 }
 
-
 module.exports = {
   iGetTheJoke,
   havingFun,
@@ -41,3 +41,4 @@ module.exports = {
   neither,
   itsComplicated,
 }
+
