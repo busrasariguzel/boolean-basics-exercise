@@ -13,20 +13,22 @@ function isOpposite(condition) {
 }
 
 function both(condition1, condition2) {
-  if(condition1 && condition2) true
+  return condition1 && condition2;
+  
 
 }
 
 function either(condition1, condition2) {
-
+  return condition1 || condition2;
 }
 
 function neither(condition1, condition2) {
-
+  return !condition1 && !condition2;
+  
 }
 
 function itsComplicated(condition1, condition2, condition3) {
-
+  return !condition1 || condition3 && condition2;
 }
 
 module.exports = {
