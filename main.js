@@ -1,7 +1,7 @@
 let iGetTheJoke = false;
 let havingFun = false;
 let learning =true;
-let killingIt = false;
+let killingIt = learning && havingFun;
 
 
 function returnFalse(str) {
