@@ -1,4 +1,4 @@
-let iGetTheJoke;
+let iGetTheJoke = false;
 let havingFun;
 let learning;
 let killingIt;
